@@ -1,5 +1,6 @@
 import numpy as np
 
-x = np.array([[1, 22.4, 5], [35, 4, 6.7], [3, 8, 40]])
+x = np.array([['a','b'], ['c', 'd'], [3, 3]])
+print(x)
+print(type(x))
 
-x.dtype
