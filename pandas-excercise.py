@@ -23,4 +23,18 @@ sr.columns = ['age', 'sex', 'bmi', 'children', 'smoker', 'region', 'charges']
 ##What is the age of the person who paid the maximum charge?
 #print(sr['charges'].max())
 #print(sr.loc[sr['charges'] == 63770.42801])
-print(sr.loc[sr['charges'] == sr['charges'].max()])
+#print(sr.loc[sr['charges'] == sr['charges'].max()])
+#print(sr.index)
+#print(sr.columns)
+#print(sr.to_sting())
+#print(sr['age'])
+#print(sr[('charges']))
+#match = sr['charges'] == 10797.3362
+#print(df[df['charges'] == df['charges'].max()]['age'])
+
+# 10 how many isured people are children
+#print(sr[sr['age'] < 18])
+
+#11 and 12 uisng corr(), check if your asumption were correct
+#print(sr[['age', 'charges', 'bmi']].corr())
+
